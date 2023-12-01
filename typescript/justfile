@@ -1,0 +1,8 @@
+test:
+    echo "Hi this is a test typescript test"
+
+lint:
+    just --fmt --unstable --check
+
+fmt:
+    just --fmt --unstable
