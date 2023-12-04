@@ -1,5 +1,8 @@
 {
-  "packages": ["just@latest"],
+  "packages": [
+    "just@latest",
+    "deno@latest"
+  ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
