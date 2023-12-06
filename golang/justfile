@@ -1,8 +1,10 @@
 test:
-    echo "Hi this is a test golang test"
+    just dayTwo/test
 
 lint:
     just --fmt --unstable --check
 
 fmt:
     just --fmt --unstable
+
+

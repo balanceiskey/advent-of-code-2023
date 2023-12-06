@@ -1,7 +1,8 @@
 {
   "packages": [
     "just@latest",
-    "deno@latest"
+    "deno@latest",
+    "go@latest"
   ],
   "shell": {
     "init_hook": [

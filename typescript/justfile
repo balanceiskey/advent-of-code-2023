@@ -1,5 +1,5 @@
 test:
-    echo "Hi this is a test typescript test"
+    just day-one/test
 
 lint:
     just --fmt --unstable --check
