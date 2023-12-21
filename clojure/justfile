@@ -1,8 +1,0 @@
-test:
-    echo "hi, this is a stub test in clojure"
-
-lint:
-    just --fmt --unstable --check
-
-fmt:
-    just --fmt --unstable

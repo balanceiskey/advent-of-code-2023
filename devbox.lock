@@ -1,7 +1,7 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "deno@latest": {
+    "deno@1.38.2": {
       "last_modified": "2023-11-19T00:55:35Z",
       "resolved": "github:NixOS/nixpkgs/9ea24fc7e02b65c150c88e1412400b70087bd382#deno",
       "source": "devbox-search",
@@ -21,7 +21,7 @@
         }
       }
     },
-    "go@latest": {
+    "go@1.21.4": {
       "last_modified": "2023-11-17T14:14:56Z",
       "resolved": "github:NixOS/nixpkgs/a71323f68d4377d12c04a5410e214495ec598d4c#go",
       "source": "devbox-search",
@@ -41,7 +41,21 @@
         }
       }
     },
-    "just@latest": {
+    "jdk21@latest": {
+      "last_modified": "2023-11-23T16:10:41Z",
+      "resolved": "github:NixOS/nixpkgs/e8b0430bc4c4235607ae102010dec2ba32e8c0ca#jdk21",
+      "source": "devbox-search",
+      "version": "21+35",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/gb903wfbih1bkg1nyhgpk46bwlr2m8ph-openjdk-21+35"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/1d33i03mqwfsn334v03r4wdj9bl0vc4i-openjdk-21+35"
+        }
+      }
+    },
+    "just@1.16.0": {
       "last_modified": "2023-11-19T09:25:46Z",
       "resolved": "github:NixOS/nixpkgs/53aeb5c67b78a1bb565467043b79c3948afacbc9#just",
       "source": "devbox-search",
@@ -58,6 +72,20 @@
         },
         "x86_64-linux": {
           "store_path": "/nix/store/fv9livr2vv8nr9mgr6g2lfyblh6pkwzj-just-1.16.0"
+        }
+      }
+    },
+    "leiningen@2.10.0": {
+      "last_modified": "2023-11-19T00:55:35Z",
+      "resolved": "github:NixOS/nixpkgs/9ea24fc7e02b65c150c88e1412400b70087bd382#leiningen",
+      "source": "devbox-search",
+      "version": "2.10.0",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/kdb1sjcpcfb4pgh0jzjvrsdn7rv21vrr-leiningen-2.10.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/ihb0fnvnx6kan9jia14lx4wn30sq6bvx-leiningen-2.10.0"
         }
       }
     }
