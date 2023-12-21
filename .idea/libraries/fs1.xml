@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="fs1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/.devbox/nix/profile/default-3-link/share/go/src/html/template/testdata/fs.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

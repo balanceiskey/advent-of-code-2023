@@ -2,9 +2,7 @@ test:
     just dayTwo/test
 
 lint:
-    just --fmt --unstable --check
+    just dayTwo/lint
 
 fmt:
     just --fmt --unstable
-
-

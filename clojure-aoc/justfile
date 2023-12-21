@@ -1,0 +1,10 @@
+test:
+    lein test
+
+lint:
+    joker --lint --working-dir src
+
+fmt:
+    zprint -w *.clj
+
+
